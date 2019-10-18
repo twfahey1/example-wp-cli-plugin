@@ -1,6 +1,6 @@
 # Example wp-cli Plugin
 
-This plugin can be added to a WP db, and will provide a `wp auditor audit` command. This simply takes the prefix of the table, and whatever is passed as an arg, and attempt to report information on the table. For example, running `wp auditor audit posts` will yield output like this:
+This plugin can be added to a Wordpress site, and will provide a `wp auditor audit` command. This simply takes the prefix of the table, and whatever is passed as an arg, and attempt to report information on the table. For example, running `wp auditor audit posts` will yield output like this:
 
 ```
 www-data@b8414984f0aa:/app$ wp auditor audit posts
